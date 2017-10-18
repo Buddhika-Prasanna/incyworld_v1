@@ -2966,3 +2966,25 @@ a:hover + .sub-nav{
 .product-contact-btn{
   width: 100%;
 }
+.footer-nav a{
+  color: white;
+}
+.footer-nav li{
+  list-style-type: none;
+  line-height: 1.5;
+}
+/*.footer-nav li:before{*/
+  /*content: "\f061";*/
+  /*font-family: FontAwesome;*/
+  /*font-style: normal;*/
+  /*font-weight: lighter;*/
+  /*text-decoration: inherit;*/
+  /*!*--adjust as necessary--*!*/
+  /*color: white;*/
+  /*font-size: 12px;*/
+  /*padding-right: 15px;*/
+/*}*/
+
+.footer-nav li:hover{
+  font-weight: bold;
+}

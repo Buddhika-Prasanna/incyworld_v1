@@ -1370,6 +1370,9 @@ a.light-text:focus {
   padding-bottom: 0;
   overflow-y: hidden;
 }
+.clients{
+    padding: 0px;
+}
 .clients #clients-carousel {
   list-style: none;
   padding: 0;

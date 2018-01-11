@@ -1,6 +1,5 @@
 <style>
     .dropdown-submenu{
-        display:none;
         margin-top: 0;
         position: fixed;
         padding: 15px 0;
@@ -15,6 +14,17 @@
         background-color: #ffffff;
 
     }
+    .dropdown-submenu-2, .dropdown-submenu-3 {
+        display:none;
+    }
+
+    .dropdown-submenu-3 img{
+        width: 35%;
+    }
+
+    .dropdown-submenu-3 h6{
+        line-height: 1.5;
+    }
 
     .navbar{
         background-color: #ffffff;
@@ -22,7 +32,7 @@
         box-shadow: 1px -4px 15px black;
     }
 
-    .dropdown-submenu img {
+    .dropdown-submenu-2 img {
         width : 50%;
     }
 
@@ -35,7 +45,15 @@
         background-color: #ffffff;
     }
 
-    .main-menu-2:hover .dropdown-submenu{
+    .main-menu-2:hover .dropdown-submenu-2{
+        display:block;
+    }
+
+    .main-menu-3:hover {
+        background-color: #ffffff;
+    }
+
+    .main-menu-3:hover .dropdown-submenu-3{
         display:block;
     }
 
@@ -147,7 +165,7 @@ function openContactForm(evt, contactType) {
 
                     <li class="menu-item main-menu-2 ">
                         <a aria-expanded="true" aria-haspopup="true" class="navbar-link dropdown-toggle" data-toggle="dropdown" href="">OUR PRODUCTS</a> <span></span>
-                            <ul class="container dropdown-submenu">
+                            <ul class="container dropdown-submenu dropdown-submenu-2">
                                 <li class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                     <a href="incyPos.html"><i></i><span><img src="assets/img/products/Incypos_logo_transparent.png"></span><br/>
                                         <p>A cloud based restaurant POS application for restaurants, cafes, clubs and hotels. Runs in offline-first mode.</p>
@@ -172,8 +190,38 @@ function openContactForm(evt, contactType) {
                             </ul>
                     </li>
 
-                    <li class="menu-item main-menu-3 ">
+                    <li class="menu-item main-menu-3">
                         <a aria-expanded="true" aria-haspopup="true" class="navbar-link dropdown-toggle" data-toggle="dropdown" href="">SERVICES</a> <span></span>
+                        <ul class="container dropdown-submenu dropdown-submenu-3">
+                            <li class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></li>
+                            <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                <a href="#"><i></i><span><img src="assets/img/icons/mobile_application_icon.png"></span><br/>
+                                    <h6>Mobile Application</br>Development</h6>
+                                </a>
+
+                            </li>
+                            <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                <a href="#"><i></i> <span><img src="assets/img/icons/website-design-icon.png"></span><br/>
+                                    <h6>Web Design &</br>Development</h6>
+                                </a>
+                            </li>
+                            <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                <a href="#"><i></i> <span><img src="assets/img/icons/outsourcing_icon.png"></span><br/>
+                                    <h6>Outsourced Product</br>Development</h6>
+                                </a>
+                            </li>
+                            <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                <a href="#"><i></i> <span><img src="assets/img/icons/offshore_staffing_icon.png"></span><br/>
+                                    <h6>Offshore</br>Staffing</h6>
+                                </a>
+                            </li>
+                            <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                <a href="#"><i></i> <span><img src="assets/img/icons/application-support-icon.png"></span><br/>
+                                    <h6>Application</br>Support</h6>
+                                </a>
+                            </li>
+                            <li class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></li>
+                        </ul>
                     </li>
 
                     <li class="menu-item main-menu-4 ">
@@ -218,25 +266,25 @@ function openContactForm(evt, contactType) {
                         </div>
 
                         <div id="contact-us" class="tabcontent" style="display:block;">
-                            <form name="sentMessage" id="contactForm" novalidate>
+                            <form name="sentMessage" id="contactForm1" novalidate>
                                 <div class="row control-group">
                                     <div class="form-group col-xs-12 floating-label-form-group controls">
                                         <label>Name</label>
-                                        <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                        <input type="text" class="form-control" placeholder="Name" id="name1" required data-validation-required-message="Please enter your name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="row control-group">
                                     <div class="form-group col-xs-12 floating-label-form-group controls">
                                         <label>Email Address</label>
-                                        <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                        <input type="email" class="form-control" placeholder="Email Address" id="email1" required data-validation-required-message="Please enter your email address.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="row control-group">
                                     <div class="form-group col-xs-12 floating-label-form-group controls">
                                         <label>Message</label>
-                                        <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                        <textarea rows="5" class="form-control" placeholder="Message" id="message1" required data-validation-required-message="Please enter a message."></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>

@@ -124,6 +124,11 @@
     .modal-footer{
         border-top: 0px;
     }
+
+    .header-contact-bar{
+        background-color:black;
+        height:35px;
+    }
 </style>
 
 <script>
@@ -142,10 +147,15 @@ function openContactForm(evt, contactType) {
 }
 </script>
 
+<nav class="navbar navbar-fixed-top" style="padding-bottom: 0px;" role="navigation">
 
-<nav class="navbar navbar-fixed-top" style="padding-top: 10px; padding-bottom: 0px;" role="navigation">
+    <div class="section header-contact-bar">
+        <div class="container">
+            <img style="height: 25px;" src="assets/img/Asset2.png">
+        </div>
+    </div>
 
-    <div class="container">
+    <div class="container" style="padding-top: 10px;">
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
@@ -160,7 +170,7 @@ function openContactForm(evt, contactType) {
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                 <ul class="nav navbar-nav pull-right">
                     <li class="menu-item main-menu-1">
-                        <a aria-expanded="true" aria-haspopup="true" class="navbar-link dropdown-toggle" data-toggle="dropdown" href="">HOME</a> <span></span>
+                        <a aria-expanded="true" aria-haspopup="true" class="navbar-link dropdown-toggle" data-toggle="dropdown" href="index.html">HOME</a> <span></span>
                     </li>
 
                     <li class="menu-item main-menu-2 ">
@@ -225,19 +235,19 @@ function openContactForm(evt, contactType) {
                     </li>
 
                     <li class="menu-item main-menu-4 ">
-                        <a aria-expanded="true" aria-haspopup="true" class="navbar-link dropdown-toggle" data-toggle="dropdown" href="">Our work</a> <span></span>
+                        <a class="navbar-link"  href="our-work.html">Our work</a> <span></span>
                     </li>
 
                     <li class="menu-item main-menu-5 ">
-                        <a aria-expanded="true" aria-haspopup="true" class="navbar-link dropdown-toggle" data-toggle="dropdown" href="">Customers</a> <span></span>
+                        <a class="navbar-link" href="customers.html">Customers</a> <span></span>
                     </li>
 
                     <li class="menu-item main-menu-6 ">
-                        <a aria-expanded="true" aria-haspopup="true" class="navbar-link dropdown-toggle" data-toggle="dropdown" href="">Careers</a> <span></span>
+                        <a class="navbar-link dropdown-toggle"href="careers.html">Careers</a> <span></span>
                     </li>
 
                     <li class="menu-item main-menu-7 ">
-                        <a aria-expanded="true" aria-haspopup="true" class="navbar-link dropdown-toggle" data-toggle="dropdown" href="">About</a> <span></span>
+                        <a class="navbar-link" href="about-us.html">About</a> <span></span>
                     </li>
 
                     <li class="menu-item main-menu-7 ">

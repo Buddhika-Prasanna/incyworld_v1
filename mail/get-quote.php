@@ -30,8 +30,7 @@ if(empty($_POST['guote-name'])  	||
     $body = "From: $name\n E-Mail: $email\n Phone: $phone\n Service: $service\n Budget: $budget\n Time: $time\n Explanation:\n $explanation";
 
 
-// create email body and send it
-    $to = 'incy@incyworld.com'; // ****PUT YOUR EMAIL ADDRESS HERE****
+    $to = 'incy@incyworld.com';
     $email_subject = "Website Contact Form:  $name";
     $email_body = "You have received a new quote request from your website contact form.\n\n" . "From: $name\n E-Mail: $email\n Phone: $phone\n Service: $service\n Budget: $budget\n Time: $time\n Explanation:\n $explanation";;
     $headers = "From: GET-QUOTE-FORM@YOUR-WEBSITE.com\n"; // ****ENTER WHO YOU WANT THE MESSAGE TO BE FROM HERE****

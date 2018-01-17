@@ -3058,3 +3058,8 @@ animation: button_move 5s infinite;
 .footer-contact span{
   padding-left: 20px;
 }
+
+.services-img {
+  height: 70px;
+  margin-bottom: 10px;
+}

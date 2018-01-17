@@ -2877,13 +2877,14 @@ p.demo-text {
   text-decoration: inherit;
 
   /*--adjust as necessary--*/
-  color: white;
+  color: #737373;
   font-size: 18px;
   padding-right: 0.5em;
 
 }
 .footer-contact #address{
   line-height: 1.5;
+  color: #737373;
 }
 .footer-contact #tele:before{
   content: "\f098";
@@ -2892,7 +2893,7 @@ p.demo-text {
   font-weight: normal;
   text-decoration: inherit;
   /*--adjust as necessary--*/
-  color: white;
+  color: #737373;
   font-size: 14px;
   padding-right: 0.5em;
 
@@ -2905,7 +2906,7 @@ p.demo-text {
   font-weight: normal;
   text-decoration: inherit;
   /*--adjust as necessary--*/
-  color: white;
+  color: #737373;
   font-size: 18px;
   padding-right: 0.5em;
 
@@ -2913,7 +2914,7 @@ p.demo-text {
 
 .footer-contact a{
   text-decoration: none;
-  color: white;
+  color: #737373;
 }
 
 .social-icons a{
@@ -3041,4 +3042,19 @@ animation: button_move 5s infinite;
 
 .incy-services-card h4{
     color: black;
+}
+
+.footer{
+  background-color: #0b0b0b;
+}
+
+.footer-logo{
+  height: 95px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  border-bottom: 0.01em solid #3e444d;
+}
+
+.footer-contact span{
+  padding-left: 20px;
 }
